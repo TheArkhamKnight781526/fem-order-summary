@@ -1,0 +1,30 @@
+@import "_variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  max-width: 100%;
+  font-family: "Red Hat Display";
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  min-width: $mobile;
+  background: $pale-blue url("/images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 16px;
+  display: grid;
+  place-items: center;
+
+  @include desktop {
+    background-image: url("/images/pattern-background-desktop.svg");
+  }
+}
