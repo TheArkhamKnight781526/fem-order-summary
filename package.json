@@ -1,0 +1,12 @@
+{
+  "name": "order-summary-component-main",
+  "version": "1.0.0",
+  "author": "TheArkhamKnight781526 <thearkhamknight781526@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx sass SCSS:CSS"
+  },
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
+}
